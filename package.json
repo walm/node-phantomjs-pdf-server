@@ -1,0 +1,19 @@
+{
+  "name": "node-phantomjs-pdf-server",
+  "version": "0.0.1",
+  "description": "Simple Express server that render pages to PDF using phantomjs-node",
+  "main": "server.coffee",
+  "repository": "https://github.com/walm/node-phantomjs-pdf-server",
+  "author": "Andreas Wålm",
+  "license": "MIT",
+
+  "dependencies" : {
+    "coffee-script" : "",
+    "phantom" : "",
+    "express": "3.x"
+  },
+
+  "scripts" : {
+    "start" : "coffee server.coffee"
+  }
+}
